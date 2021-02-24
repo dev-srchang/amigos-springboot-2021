@@ -3,6 +3,7 @@ package inc.src.demo.student;
 import java.time.LocalDate;
 
 public class Student {
+
     private Long id;
     private String name;
     private String email;
@@ -20,6 +21,7 @@ public class Student {
         this.age = age;
     }
 
+    // without id which increase id using auto-increment
     public Student(String name, String email, LocalDate dob, Integer age) {
         this.name = name;
         this.email = email;
